@@ -19,7 +19,7 @@ namespace stagingtest
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            string responseMessage = "Second deployment";
+            string responseMessage = "Third deployment";
 
             return new OkObjectResult(responseMessage);
         }
